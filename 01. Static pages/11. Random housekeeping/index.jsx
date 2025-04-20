@@ -6,3 +6,8 @@
  * 2. Use that root to render some JSX. For now, just render
  *    an h1 element that says anything you want.
  */
+import { createRoot } from "react-dom/client" 
+comst root = createRoot(documen.getElementById("root"))
+root.render(
+  <h1>this is React</h1>
+  )
