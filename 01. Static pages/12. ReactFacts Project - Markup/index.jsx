@@ -12,3 +12,19 @@ Hints:
 * You can also set the `width` attribute of the image element
   just like in HTML. In the slide, I have it set to 40px
  */
+
+import { createRoot } from "react-dom/client"
+const root = createRoor(document.getElementById("root))
+root.render (
+  <main>
+    <img src = "Screenshot (197).png" width ="100px" alt = "React logo" />
+    <h1>Fun Facrs about React!</h1>
+    <ul>
+      <li>Wasfirst released  in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 200k stars on GitHub</li>
+      <li>Is maintained by Meta</li>
+      <li>empowers 100s of entrerprise apps including mobile apps</li>
+    </ul>
+  </main>
+  )
