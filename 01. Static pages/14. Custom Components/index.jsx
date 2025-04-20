@@ -12,5 +12,19 @@ const root = createRoot(document.getElementById("root"))
  */
 
 root.render(
-    
+    <Page />
 )
+
+function Page () {
+    return (
+        <ol>
+        <h1>Excited to learn React:</h1>
+        <li>To learn to create exciting web page</li>
+        <li>To make money</li>
+        <li>To build my own website</li>
+    </ol>
+}
+
+
+    )
+    
