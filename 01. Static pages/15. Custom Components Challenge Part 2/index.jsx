@@ -19,13 +19,24 @@ Part 2:
 
 
 function Page() {
-    return (
-        <ol>
-            <li>React is a popular library, so I will be able to
-            fit in with all the coolest devs out there! 😎</li>
-            <li>I am more likely to get a job as a front end developer
-            if I know React</li>
-        </ol>
+    return ( 
+      <div>
+        <header>
+          <img src = "img.png" width = "50px" alt="logo"><img/>
+        </header>
+          <main>
+            <ol>
+              <li>React is a popular library, so I will be able to
+              fit in with all the coolest devs out there! 😎</li>
+              <li>I am more likely to get a job as a front end developer
+              if I know React</li>
+           </ol>
+          </main>
+          <footer>
+              <small>"© 20xx <last name here> development. All rights reserved."</small>
+          </footer>
+      </div>
+      
     )
 }
 
